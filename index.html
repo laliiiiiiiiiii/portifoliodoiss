@@ -3,29 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Flashcard</title>
+    <title>Flash Card Interativo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section id="container">
-            <!-- <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        <p>O que é JavaScript?</p>
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        <p>O JavaScript é uma linguagem de programação</p>
-                    </div>
-                </div>
-            </article> -->
-        </section>
-    </main>
-    <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
-    </footer>
-    <script src="app.js"></script>
-    <script src="perguntas.js"></script>
+    <div class="card-container">
+        <div class="card-inner">
+            <div class="card-face card-front">
+                <h2>Pergunta</h2>
+                <p>O que é a propriedade CSS "display: flex;"?</p>
+            </div>
+            
+            <div class="card-face card-back">
+                <h2>Resposta</h2>
+                <p>É uma propriedade que define um container flexível, permitindo alinhar e distribuir espaço entre os elementos filhos de maneira eficiente.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-</html># portifoliodoiss
+</html>
